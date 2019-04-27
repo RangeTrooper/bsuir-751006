@@ -1,0 +1,171 @@
+ul{
+	
+	list-style: none;
+	
+	margin: 0; 
+	padding-left: 0; 
+	/*padding-right:30%;*/
+	font-size: 1.8vw;
+	color:white;
+	
+	
+ }
+ li{
+	 display: inline;
+	margin-right: 2%;
+	line-height:90px;
+	
+ }
+ .banner img{
+	 width:100%;
+	 margin:0;
+	 display:block;
+ }
+ .textBox img{
+	 width:100%;
+	 margin:0;
+	 display:block;
+ }
+ .menu{
+	 background-color: #373c3f;
+	 display:block;
+	 height:96px;
+	 font-family: 'Montserrat', arial;
+	 width:100%;
+	 font-size:1.3em;
+ }
+ ul{
+	 padding-left:40px;
+	
+ }
+ .images{
+	 width:33%;
+ }
+ .images1{
+	 width:33%;
+ }
+ body{
+	 margin:0;
+ }
+ .article{
+	display:block;
+	float:left;
+	/*width:100%;*/
+	
+	/*margin:10px;*/
+ }
+
+ .textArea{
+	 margin:0;
+	 display:block;
+	 background-color:#ebebeb;
+ }
+ .blaz{
+	font-family: 'Montserrat', arial;
+	font-size:2em;
+	color:#088ca5;
+	background-color:#ebebeb;
+	padding-left:78px;
+}
+ .navigation{
+	 float:left;
+	 display:none;
+	 color:white;
+	 padding-left:10%;
+	 background-color: #373c3f;
+	 
+	font-family: 'Montserrat', arial;
+	font-size:100%;
+ }
+ .footer{
+	 height:30px;
+ }
+.menuIcon{
+	
+	display:none;
+	float:left;
+	font-size:100%;
+	/*padding-right:20px;*/
+	background-color: #202529;
+	
+}
+ #lcol {
+	 float:left;
+	 text-align:center;
+	 width:50%;
+	 background-color:#ebebeb;
+ }
+  #rcol{
+	  float:left;
+	  text-align:center;
+	 width:50%;
+	 background-color:#ebebeb;
+ }
+ #colText{
+	 padding:0 78px;
+	 text-align:left;
+ }
+ 
+ @media (max-width: 980px){
+	
+	 
+ }
+@media (max-width: 640px) {
+	
+.blaz{
+	padding-left:20%;
+	font-size:1.5em;
+}	
+#rcol{
+	display:none;
+}	
+#lcol{
+	width:100%;
+}
+#colText{
+	padding: 0 20%;
+}
+.images {
+	display:block;
+	margin:0;
+	width:100%;
+}
+.images1{
+	display:block;
+	margin:0;
+	width:100%;
+}
+.menu{
+	display:none;
+}
+.navigation{
+	display:block;
+	
+	padding-top:5%;
+	padding-bottom:5%;
+	width:70%;
+	height:25%;
+}
+.menuIcon{
+	float:right;
+	display:block;
+	
+	padding-top:5%;
+	padding-bottom:5%;
+	height:25%;
+	/*padding-left:20px;
+	padding-right:20px;*/
+	color:white;
+	text-align:center;
+	width:20%;
+}
+
+
+.menuNav{
+	
+	display:block;
+}
+
+
+}
+ 
